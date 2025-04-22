@@ -138,3 +138,5 @@ littering-detection/
 ## 📜 License
 
 MIT License. Feel free to use and improve this project for educational or civic purposes.
+---
+🚀 Feel free to contribute, report issues, and improve this project! 🎯

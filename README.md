@@ -1,39 +1,37 @@
-# Littering Detection & Vehicle Identification System
-
-An AI-powered solution to detect littering behavior from vehicles in real-time, identify the vehicle number using license plate recognition, and log incidents for further action.
-
-
-## 🧠 Project Overview
-
-This project aims to automate the process of identifying littering activities from moving vehicles using CCTV or mounted cameras. It uses a combination of object detection (YOLOv8), number plate detection (OpenCV), and OCR (Tesseract) to:
-
-- Detect if trash is being thrown from a vehicle
-- Capture and recognize the vehicle's license plate
-- Log the event for record-keeping or law enforcement purposes
-
+# Littering Detection & Vehicle Number Plate Recognition System
 ---
+## Overview
 
-## ✨ Features
+In many cities, the problem of littering from moving vehicles is growing. Traditional surveillance systems struggle to catch these events in real-time and identify the culprits. This project aims to solve this issue using a computer vision pipeline that performs the following:
 
-- 📹 Real-time object detection using **YOLOv8**
-- 🚗 Vehicle detection and tracking
-- 🗑️ Trash object classification
-- 🔍 License plate detection and OCR with **Tesseract**
-- 📁 Incident logging with timestamp and image evidence
-- 🔒 Privacy-focused and efficient
+1. **Plastic Waste Detection** – A YOLOv8 model trained to detect plastic items such as bottles and wrappers thrown from vehicles.
+2. **Vehicle Detection** – Identifies and localizes the vehicle responsible for the action using a separate YOLOv8 model.
+3. **License Plate Detection and OCR** – The number plate is detected from the vehicle region, cropped, and passed to an OCR module to extract the alphanumeric registration number.
+4. **Data Logging and Evidence Storage** – Cropped images of the plastic waste, vehicle, and number plate are saved along with the recognized text for further verification or legal action.
+5. **Real-time Feed Processing** – The system works on a live video stream or recorded footage for continuous monitoring.
 
+This solution can be used by municipal bodies and smart city projects to automate litter detection, issue fines, and build a cleaner environment.
 ---
+## Features
 
+- Plastic Waste Detection using YOLOv8
+- Vehicle Detection
+- License Plate Detection
+- OCR for extracting vehicle number
+- Cropping and saving evidence images
+- Organized storage by date and time
+- Real-time camera feed analysis
+---
 ## 🛠️ Tech Stack
 
 | Component        | Technology          |
 |------------------|---------------------|
-| 🧠 AI Model       | YOLOv8 (Ultralytics) |
-| 🧪 OCR            | Tesseract OCR       |
-| 🔧 Backend        | Python              |
-| 🖼️ Image Processing | OpenCV              |
-| 💾 Database (optional) | SQLite or Firebase |
-| ☁️ Deployment     | Localhost / Cloud VM |
+|  AI Model        | YOLOv8 (Ultralytics) |
+|  OCR             | Tesseract OCR       |
+|  Backend         | Python              |
+|  Image Processing | OpenCV              |
+|  Database (optional) | SQLite or Firebase |
+|  Deployment      | Localhost / Cloud VM |
 
 ---
 
@@ -42,7 +40,7 @@ This project aims to automate the process of identifying littering activities fr
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/<your-username>/littering-detection.git
+git clone https://github.com/itsshashankr14/littering-management-system.git
 cd littering-detection
 ```
 
@@ -115,16 +113,18 @@ littering-detection/
 ├── requirements.txt
 └── README.md
 ```
+## 🎥 Demo
+![Dashboard](image.png)
+![Trash and vehicle detection](image-1.png)
 
 ---
 
 ## 🔮 Future Enhancements
 
-- 🗺️ GPS tagging for each incident
-- 🌐 Dashboard for analytics and reporting
-- 📧 Email alerts or SMS notifications
-- 🤖 Integration with city surveillance systems
-- 🧠 Custom-trained models for improved accuracy
+- GPS tagging for each incident
+- Email alerts or SMS notifications
+- Integration with city surveillance systems
+- Custom-trained models for improved accuracy
 
 ---
 

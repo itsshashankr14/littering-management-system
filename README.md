@@ -130,8 +130,8 @@ littering-detection/
 
 ## 🙌 Contributors
 
-- **Shashank Gowda R** – [GitHub](https://github.com/itsshashankr14)\
-- **Mohan** – [GitHub](https://github.com/mohan1345)
+- **Shashank Gowda R** – [Folow on Github](https://github.com/itsshashankr14)
+- **Mohan** – [Follow on Github](https://github.com/mohan1345)
 
 ---
 

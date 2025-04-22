@@ -113,7 +113,7 @@ littering-detection/
 ├── requirements.txt
 └── README.md
 ```
-## 🎥 Demo
+## Screenshots
 ![Dashboard](image.png)
 ![Trash and vehicle detection](image-1.png)
 

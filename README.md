@@ -2,21 +2,6 @@
 
 An AI-powered solution to detect littering behavior from vehicles in real-time, identify the vehicle number using license plate recognition, and log incidents for further action.
 
----
-
-## 📌 Table of Contents
-
-- [Project Overview](#project-overview)
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Setup Instructions](#setup-instructions)
-- [How it Works](#how-it-works)
-- [Demo](#demo)
-- [Folder Structure](#folder-structure)
-- [Future Enhancements](#future-enhancements)
-- [Contributors](#contributors)
-
----
 
 ## 🧠 Project Overview
 
@@ -114,11 +99,6 @@ python main.py
 
 ---
 
-## 🎥 Demo
-
-*(Include screenshots or a link to a video demo if available)*
-
----
 
 ## 📁 Folder Structure
 
@@ -150,7 +130,8 @@ littering-detection/
 
 ## 🙌 Contributors
 
-- **Shashank R.** – [GitHub](https://github.com/your-username)
+- **Shashank Gowda R** – [GitHub](https://github.com/itsshashankr14)\
+- **Mohan** – [GitHub](https://github.com/mohan1345)
 
 ---
 

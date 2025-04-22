@@ -1,4 +1,4 @@
-# 🚯 Littering Detection & Vehicle Identification System
+# Littering Detection & Vehicle Identification System
 
 An AI-powered solution to detect littering behavior from vehicles in real-time, identify the vehicle number using license plate recognition, and log incidents for further action.
 
